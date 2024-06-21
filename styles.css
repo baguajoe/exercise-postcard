@@ -5,42 +5,48 @@ body {
 	border: 1px dashed red;
 	min-height: 10px;
 }
-
+/*Postcard*/
 .postcard {
 	background-color: white;
-	width: 400px;
 	height: 300px;
+	width: 400px;
 	margin: auto;
 }
+/*Postcard Header*/
 .postcard-header {
 	display: flex;
 }
 .postcard-header img {
-	width: x;
-	height: x;
+	width: 50px;
+	height: 50px;
 }
 .postcard-header h1 {
-	width: x;
-	margin: x;
+	width: 700px;
+	margin: none;
 }
+/*Postcard Body*/
 .postcard-body {
 	display: flex;
 }
-.body-left p:first-child {
-	margin-top: x;
+.body-left p {
+	margin-top: none;
 }
 .body-left,
 .body-right {
-	padding: x;
+	margin-top: none;
+	padding: 20;
+	font-size: small;
 }
 input {
-	border: x;
-	border-bottom: x;
+	border: none;
+	border-bottom: gray;
+	font-size: small;
 }
+/*Postcard Footer*/
 .postcard-footer {
-	text-align: x;
+	text-align: center;
 }
 button {
-	background-color: x;
-	padding: x;
+	background-color: grey;
+	padding: 1%;
 }
